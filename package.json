@@ -1,0 +1,18 @@
+{
+  "name": "dijitrove-morocco-promo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A vertical Remotion promo video celebrating Morocco, with Moroccan Darija copy.",
+  "scripts": {
+    "dev": "remotion studio src/index.jsx",
+    "build": "remotion render src/index.jsx MoroccoPromo out/morocco-promo.mp4",
+    "still": "remotion still src/index.jsx MoroccoPromo out/morocco-promo.png --frame=450"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {}
+}
